@@ -1,5 +1,3 @@
-
-
 #include "sweepminer.h"
 #include <iomanip>
 #include <vector>
