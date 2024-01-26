@@ -1,21 +1,10 @@
-/*
-* Name: Rahel Siefe, 5007247591, Assignment #7
-* Description: This sweepminer program builds a 2D grid where bombs
-are placed randomly. Each square hold a number represeting its distance
-from the nearest bomb. Squares with bombs should be marked accordingly;
-* Input: Coordinates on the board, distance from a bomb, bomb count 
-* Output: Prints a populated sweepmine baord according to where
-the closest bomb is realtive ot each unit of the baord. 
-*/
+
 
 #include "sweepminer.h"
 #include <iomanip>
 #include <vector>
 
 using namespace std;
-
-// vv Uncomment next line to get helpful debug statements, but leave commented for final submission vv
-// #define DEBUG
 /* 
  allocateBoard: Dynamically allocates the 2D board array and populates 
  it with maxDist in each entry. 
