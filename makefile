@@ -1,4 +1,4 @@
-# Make file for pointers assignment
+# Make file for pointers 
 
 OBJS	= main.o matryoshka.o sweepminer.o
 CC		= g++
